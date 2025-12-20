@@ -45,6 +45,10 @@ for mouse_number in range(1,17):
 
     #draw curve
     axis.plot(x, y, color = c)
+    plt.xlabel("Jour de traitement")
+    plt.ylabel("Nombre de bactéries vivantes (en log)")
+    plt.title("Graphique présentant l'évolution du nombre de bactéries en fonction du jour de traitement")
+    plt.grid(True, linestyle = 'dashed')
 
 cecal_abx = []
 cecal_plb = []
@@ -84,7 +88,10 @@ fd.close()
 #draw curve
 axis1.violinplot([cecal_abx, cecal_plb])
 axis2.violinplot([ileal_abx, ileal_plb])
-
+plt.xlabel("Jour de traitement")
+plt.ylabel("Nombre de bactéries vivantes (en log)")
+plt.title("Graphique présentant l'évolution du nombre de bactéries en fonction du jour de traitement")
+plt.grid(True, linestyle = 'dashed')
 
 
 figure.savefig("out.png", dpi=200)
