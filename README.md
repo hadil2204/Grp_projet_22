@@ -20,7 +20,7 @@ Résultats : Sur tout les graphiques, le rouge représente le groupe ABX et le b
 Observations attendues : Sur le graphique de la matière fécale, on observe une chute de la quantité de bactéries pendant le traitement ABX, puis une augmentation à partir du jour de lavage, où le microbiote tente de se reconstituer. Sur les graphiques en violon, on s'attend à ce que le groupe ABX ait moins de bactéries que le groupe Placebo.
 
 Limite du code :
-	-Le code a été conçu pour des fichiers csv utilisant le point virgule (;) comme séparateur.
-	-Le programme nécessite un référencement spécifique des données dans le fichier source. Si l'ordre des colonnes du fichier source changent, les calculs seront erronés (par exemple, la quantité de bactéries est attendue à l'index 8 et le type d'échantillon à l'index 2)
-	-Le script repose sur un format d'identifiant spécifique pour trier les souris (ex: "ABX001").
+-Le code a été conçu pour des fichiers csv utilisant le point virgule (;) comme séparateur.
+-Le programme nécessite un référencement spécifique des données dans le fichier source. Si l'ordre des colonnes du fichier source changent, les calculs seront erronés (par exemple, la quantité de bactéries est attendue à l'index 8 et le type d'échantillon à l'index 2)
+-Le script repose sur un format d'identifiant spécifique pour trier les souris (ex: "ABX001").
 
