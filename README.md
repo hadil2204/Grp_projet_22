@@ -4,8 +4,8 @@
   - Placer le fichier de code à l'intérieur du dossier
   - Pour ouvrir le fichier de code il vous faut un environnement de développement tel que "Spyder"
   - Ce code fonctionne pour le fichier csv "data_real.csv" si vous voulez analyser un autre fichier il faudra changer les lignes de codes:
-    - ligne 73: changer 'data_real.csv' par le fichier voulu => file_to_copy = 'fichier_voulu'
-    - ligne 83: changer 'data_real.csv' par le fichier voulu => path_in = "Input\fichier_voulu.csv"
+    - ligne 73: changer "data_real.csv" par le fichier voulu => file_to_copy = "fichier_voulu"
+    - ligne 83: changer "data_real.csv" par le fichier voulu => path_in = "Input\fichier_voulu.csv"
   - Différents dossiers seront crées, s'ils n'existent pas déjà, où vous pourrez retrouver les données générées:
 	- Dossier input: contient une copie du fichier csv à analyser
     - Dossier output: contient les trois fichiers csv générés par le programme (données fécale, caecal et iléal)
